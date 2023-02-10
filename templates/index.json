@@ -1,0 +1,16 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "settings": {}
+    },
+    "fist-of-collections": {
+      "type": "list-of-collections",
+      "settings": {}
+    }
+  },
+  "order": [
+    "hero",
+    "fist-of-collections"
+  ]
+}
