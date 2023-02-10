@@ -66,6 +66,7 @@
           <noscript>{{ 'custom.css' | asset_url | stylesheet_tag }}</noscript>
         {%- endif -%}
 
+
         <script>
           document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
           if (Shopify.designMode) {
@@ -79,6 +80,7 @@
     <a class="skip-to-content-link button sr-only" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>
+    
 
       {% render 'wrapper-header' %}
 
